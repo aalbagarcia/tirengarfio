@@ -1,0 +1,25 @@
+dev:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: mysql:host=localhost;dbname=rs12;unix_socket=/opt/lampp/var/mysql/mysql.sock
+      username: root
+      password: m
+
+prod:
+  doctrine: 
+    class: sfDoctrineDatabase 
+    param: 
+      dsn: mysql:host=localhost;dbname=rs12;
+      username: root 
+      password: m
+
+
+
+
+
+
+test:
+
+all:
+  

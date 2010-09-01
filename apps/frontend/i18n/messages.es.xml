@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header/>
+    <body>
+      <trans-unit>
+        <source>Signin</source>
+        <target>Entrar</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Forgot your password?</source>
+        <target>¿Olvidaste tu contraseña?</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Create My Account</source>
+        <target>Registrarme</target>
+      </trans-unit>
+      <trans-unit>
+        <source>sign in</source>
+        <target>Entrar</target>
+      </trans-unit>
+      <trans-unit>
+        <source>request</source>
+        <target>Registrarme</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Thank you for applying for an account. You will receive a verification
+email shortly. If you do not see that email, please be sure to check 
+your "spam" or "bulk" folder.</source>
+        <target>Gracias por registrarte en Tirengarfio. Recibirás un e-mail para completar tu registro. Si no encuentras el e-mail en la bandeja de entrada, revisa tu carpeta "spam".</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Forgot your password? No problem! Just enter your email address and click "Reset My Password." You will receive an email message containing a link permitting you to change your password if you wish.</source>
+        <target>¿Has olvidado tu contraseña? Para que crear una nueva, introduce tu direccion de e-mail y presiona sobre "Nueva contraseña". A continuacion te enviaremos un e-mail para que generes tu nueva contraseña.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>That account was never verified. You must verify the account before you can log in or, if
+necessary, reset the password. We have resent your verification email, which contains
+instructions to verify your account. If you do not see that email, please be sure to check 
+your "spam" or "bulk" folder.</source>
+        <target>No confirmaste tu registro. Para confirmar el registro debes abrir el e-mail que te enviamos y seguir las instrucciones. Si el e-mail no aparece en la bandeja de entrada comprueba la carpeta "spam".</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Thank you for confirming your account! You are now logged into the site.</source>
+        <target>¡Gracias por confirmar tu registro! Estas logeado en Tirengarfio.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>That confirmation code is invalid. 
+        </source>
+        <target>Registrarme</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Reset My Password</source>
+        <target>Nueva contraseña</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Thanks for confirming your email address. You may now change your
+password using the form below.</source>
+        <target>Gracias por confirmar tu dirección de e-mail. Ahora puedes cambiar tu password.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Your password has been successfully reset. You are now logged in to this site. In the future, be sure to log in with your new password.</source>
+        <target>Has cambiado tu contraseña. Ahora estas dentro de Tirengarfio. A partir de ahora utiliza tu nueva contraseña para autenticarte.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>&lt;p&gt;
+For security reasons, a confirmation message has been sent to 
+the email address associated with this account. Please check your
+email for that message. You will need to click on a link provided
+in that email in order to change your password. If you do not see
+the message, be sure to check your "spam" and "bulk" email folders.
+&lt;/p&gt;
+&lt;p&gt;
+We apologize for the inconvenience.
+&lt;/p&gt;</source>
+        <target>&lt;p&gt;Por razones de seguridad, te hemos enviado un
+                mensaje a tu cuenta de correo para que puedas cambiar
+                tu contraseña. Necesitarás pinchar sobre un enlace que 
+                contiene dicho e-mail. Si no encuentras el mensaje en
+                tu bandeja de entrada comprueba tu carpeta "spam". &lt;/p&gt;
+&lt;p&gt;
+Sentimos el inconveniente.
+&lt;/p&gt; 
+         </target>
+      </trans-unit>
+      <trans-unit>
+        <source>&lt;p&gt;
+That confirmation code is invalid.
+&lt;/p&gt;
+&lt;p&gt;
+This may be because you have already confirmed your account. If so,
+just click on the "Log In" button to log in.
+&lt;/p&gt;
+&lt;p&gt;
+Other possible explanations:
+&lt;/p&gt;
+&lt;p&gt;
+1. If you copied and pasted the URL from
+your confirmation email, please make sure you did so correctly and
+completely.
+&lt;/p&gt;
+&lt;p&gt;
+2. If you received this confirmation email a long time ago
+and never confirmed your account, it is possible that your account has
+been purged from the system. In that case, you should simply apply
+for a new account.
+&lt;/p&gt;</source>
+        <target>&lt;p&gt;No podemos confirmar tu registro.&lt;/p&gt;
+        &lt;p&gt;Puede ser debido a que ya has confirmado tu cuenta. En ese caso, pincha 
+        sobre el boton de "Log in" para entrar en Tirengarfio.&lt;/p&gt;
+        &lt;p&gt;Otra causas pueden ser:&lt;/p&gt;
+        &lt;p&gt;1. Si copiaste y pegaste la URL del e-mail que te enviamos, asegurate que seleccionaste la URL entera.&lt;/p&gt;
+        &lt;p&gt;2. Si recibiste el email hace mucho tiempo, es posible que tu cuenta haya sido cancelada.
+         En ese caso registrate de nuevo.&lt;/p&gt;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Continue</source>
+        <target>Continuar</target>
+      </trans-unit>      
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,111 @@
+* {margin:0;padding:0;}
+
+
+.lista_mensajes {
+    margin-left: 5%;
+    margin-right: 5%;
+	
+}
+
+.lista_mensajes p{
+	
+	line-height: 15px;
+	
+}
+
+.mensaje_0, .mensaje_1 {
+    border-bottom:2px;
+    margin-bottom: 15px;
+}
+.mensaje_0 {
+    border: solid 1px;
+}
+.mensaje_1 {
+    border: solid 1px white;
+}
+
+.fotografia {
+    float: left;
+    display: inline;
+    margin: 11px 0 11px 11px;
+}
+
+.cabecera_contenido_y_pie{
+    margin-top: 12px;
+    margin-left: 77px;
+}
+
+.cabecera_mensaje {
+    background: none repeat scroll 0 0;
+	margin-bottom: 7px;
+}
+
+.cabecera_mensaje h2{
+	
+	display: inline;
+	
+}
+
+.cabecera_mensaje h3{
+	
+	display: inline;
+	
+}
+
+
+.info_mensaje {
+	
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.titulo {
+
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 15px;
+	
+}
+
+
+.contenido{
+    margin-bottom: 6px;
+}
+
+.pie_mensaje {
+    margin-bottom: 10px;
+}
+.enlace_responder {
+    float: left;
+    margin-right: 5px;
+}
+
+.solicitud {
+
+	margin:0 auto;
+	overflow:hidden;
+	width:566px;
+}
+
+.texto_y_botones {
+    margin: 0 0 0 78px;
+height: 1%;
+}
+
+.texto_solicitud {
+    margin-top: 35px;
+    float: left;
+}
+
+.boton_aceptar {
+    margin-top: 32px;
+    margin-left: 7px;
+    float: left;
+}
+
+.boton_denegar {
+    float: left;
+    margin-top: 32px;
+    margin-left: 6px;
+
+}

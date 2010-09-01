@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+#select_idioma{
+
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+#contenedor{
+	
+	width: 700px;
+	margin: 0 auto;
+	
+}
+
+#logo{
+	
+	height: 160px;
+	
+}
+
+#logo img{
+	
+	display:block;
+	margin:0 auto;
+	padding-top:35px;
+	
+}
+
+
+
+
+

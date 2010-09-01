@@ -1,0 +1,74 @@
+sfGuardUserProfile:
+  tableName: sf_guard_user_profile
+  actAs:
+    Sluggable: { unique: true, fields: [fullname], canUpdate: true }
+  columns:
+    id:
+      type: integer(8)
+      primary: true
+      autoincrement: true
+    user_id:
+      type: integer(8)
+      notnull: true
+    fullname: string(255)
+    email: string(255)
+    sexo: boolean
+    fecha_nac: date
+    provincia: string(60)
+    localidad: string(255)
+    avatar: string(255)
+    validate:
+      type: string(17)
+  relations:
+    User:
+      class: sfGuardUser
+      foreign: id
+      local: user_id
+      type: one  
+      onDelete: cascade    
+      foreignType: one
+      foreignAlias: Profile
+    Profile:
+      local: user1
+      foreign: user2
+      refClass: AmigoUsuario
+      equal: true     
+
+AmigoUsuario:
+  columns:
+    user1_id:
+      type: integer(8)
+    user2_id:
+      type: integer(8)
+    estado:
+      type: integer
+      default: 0
+  relations:
+    User1:
+      class: sfGuardUserProfile
+      local: user1_id
+      foreignAlias: AmigoUsuario
+      onDelete: CASCADE
+    User2:
+      class: sfGuardUser
+      local: user2_id
+      foreignAlias: AmigoUsuario
+      onDelete: CASCADE
+
+      
+Mensaje:
+  actAs: [Timestampable]
+  columns:
+    sf_guard_user_profile_id: integer(8)
+    receptor: integer(4)
+    tipo: integer(1)
+    titulo:
+      type: string(100)
+      notnull: true
+    contenido:
+      type: string(4000)
+      notnull: true
+    estado: boolean
+  relations:
+    sfGuardUserProfile:
+      foreignType: one

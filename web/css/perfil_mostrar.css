@@ -1,0 +1,135 @@
+root {
+	display: block;
+}
+
+
+#foto {
+	
+	float:left;
+	margin-left: 12px;
+}
+
+
+#datos_personales {
+	
+	float:left;
+	margin-left:16px;
+	margin-top:12px;
+	width:326px;
+}
+
+
+#cabecera{
+	
+	vertical-align: baseline;
+	
+}
+
+h2#nombre_apellidos {
+	
+    display:inline;
+    margin:0;
+    	
+}
+
+p#editar_o_mensaje{
+	
+	display: inline;
+	float: right;
+	padding-top: 4px;
+}
+
+
+#foto img{
+	
+	border:1px solid #CFCFCF;
+	padding:2px;
+	
+}
+
+.etiqueta_datos_personales{
+	
+	font-weight: bold;
+	margin: 8px 0 10px 0;
+
+}
+
+
+.valor_datos_personales{
+	
+	text-align: center;
+	margin: 11px 0 19px 0;
+	padding-bottom: 10px; 
+	border-bottom: 1px solid #CFCFCF;
+	width: 250px;
+	margin: auto;
+}
+
+
+#actualizacion_perfil{
+	
+	width: 312px;
+	margin: auto;
+	margin-top: 12px;
+}
+
+/*************/
+
+#panel_amigos {
+	
+	float: right;
+	margin: 0 10px 0 14px;
+	background: #D4F8B6;
+	border: 1px solid #D4F899;
+	width: 186px;
+}
+
+#panel_amigos p{
+	
+	color: #557936;
+	font-weight: bold;
+	padding: 0 8px 20px;
+	text-align: center;
+}
+
+
+#cabecera_amigos {
+    margin: 0 0 17px 0;
+	background: #A9F16C;
+	color: #557936;
+	font-weight: bold;
+	padding: 5px 8px;
+	text-shadow:0 1px 0 #D9E9F1;
+	
+}
+
+
+.fila {
+	overflow:hidden;
+	margin: 0px 8px 14px 8px;
+	clear: both;
+	
+}
+
+
+.foto_y_nombre {
+	float: left;
+	width: 85px;
+}
+
+
+img.foto_amigo {
+	display: block;
+	margin: 0px auto 6px auto;
+}
+
+.nombre_amigo {
+	display: block;
+	margin: 0px auto ;
+	width: 75px;
+	text-align: center;
+	font-size: 11px;
+	color: #557936
+}
+
+

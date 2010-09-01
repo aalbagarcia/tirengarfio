@@ -1,0 +1,94 @@
+* {margin:0;padding:0;}
+
+
+img {
+    vertical-align: bottom;
+}
+
+#lista_amistad{
+	
+	border:1px solid #A9F16C;
+	padding: 30px;
+	width: 505px;
+	margin: 0 auto;
+	
+}
+
+#lista_miembros{
+
+	float:left;
+	width:455px;
+
+}
+
+#texto_cabecera{
+	
+	display: inline;
+	
+}
+
+
+
+.miembro {
+
+
+	clear:left;
+	overflow:auto;
+	height:1%;
+	padding: 0 15px 25px 15px;
+	border-bottom:1px solid #A9F16C;
+	margin-bottom: 25px;	
+	
+}
+
+.fotografia {
+    float:left;
+
+}
+
+
+.datos_y_acciones {
+    margin: 15px 0 0 0;
+}
+
+.datos{
+
+    float: left;
+	margin-left: 10px;
+	width: 154;
+}
+
+.acciones{
+	
+	float: right;
+	text-align: right;
+	width: 160px;
+}
+
+#cabecera_lista{
+	
+	border-bottom:1.5px solid #A9F16C;
+	margin-bottom:25px;
+	padding-bottom:7px;
+}
+
+#botones_paginas_arriba{
+
+	float: right;
+	margin-right: 5px;
+
+}
+
+#botones_paginas_abajo{
+
+	float: right;
+	margin-top: -20px;
+	margin-right: 5px;
+}
+
+
+#numero_elementos{
+	
+	float:left;
+	
+}

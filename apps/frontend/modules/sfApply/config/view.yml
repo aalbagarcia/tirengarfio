@@ -1,0 +1,7 @@
+default:
+
+  stylesheets:   [main.css, formularios.css, portada.css, layout_vacio.css, varios.css]
+  
+  
+  has_layout:     true
+  layout:         layout_vacio

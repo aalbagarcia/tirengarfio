@@ -1,0 +1,64 @@
+body{
+    behavior: url("/web/css/csshover3.htc");
+}
+
+
+#contenedor{
+
+margin:0 auto;
+width:62em;
+
+}
+
+#cabecera {
+    overflow: hidden;
+    background: #FB5B81;
+    border-style: solid;
+    border-color: #FB5B81;
+    border-width: 0 0 0 1px;
+    margin-bottom: 40px;
+    height: 1%;
+	width: 62em;
+}
+
+#cabecera ul{
+    margin:0;
+    padding:0;
+}
+
+#cabecera li{
+    padding: 3px 10px;
+    border-style: solid;
+    border-color: #FB5B81;
+    border-width: 1px 1px 1px 0;
+    list-style-type:none;
+    
+}
+
+#cabecera li a{
+    font-weight: bold;
+    color: white;
+	text-decoration: none;
+}
+
+#cabecera li#seleccionado {
+    background:#F13C73;
+}
+
+
+
+#cabecera li:hover {
+     background-color: #F13C73;
+          
+}
+
+#opciones_navegacion li{
+    float: left;
+}
+
+#opcion_salir li{
+    float: right;
+}
+
+
+

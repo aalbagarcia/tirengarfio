@@ -1,0 +1,105 @@
+sfGuardUser:
+  fernando:
+    username: Fernando Salgado Alonso
+    email_address: fer@mail.com
+    password: m
+    is_super_admin: true
+    Profile:
+      fullname: Fernando Salgado Alonso
+      email: fer@mail.com 
+      sexo: 0
+      fecha_nac: "2008-09-02"
+      provincia: Malaga
+      localidad: Malaga
+      avatar: fer.jpg
+      
+  maria:
+    username: Maria Galindo Alvarado
+    email_address: maria@mail.com
+    password: m
+    is_super_admin: true
+    Profile:
+      fullname: Maria Galindo Alvarado
+      email: maria@mail.com
+      sexo: 0
+      fecha_nac: "1970-05-04"
+      provincia: Malaga
+      localidad: Nerja
+      avatar: maria.jpg
+
+  luis:
+    username: Luis Medrano Gloton
+    email_address: luis@mail.com
+    password: m
+    is_super_admin: true
+    Profile:
+      fullname: Luis Medrano Gloton
+      email: luis@mail.com
+      sexo: 1
+      fecha_nac: "1950-06-09"
+      provincia: Barcelona
+      localidad: Barcelona
+      avatar: luis.jpg
+
+  ana:
+    username: Ana Merino Merino
+    email_address: ana@mail.com
+    password: m
+    is_super_admin: true
+    Profile:
+      fullname: Ana Merino Merino
+      email: ana@mail.com    
+      sexo: 0
+      fecha_nac: "1988-02-02"
+      provincia: A Coruña
+      localidad: A Coruña
+      avatar: ana.jpg
+    
+  sonia:
+    username: sonia
+    email_address: sonia@mail.com
+    password: m
+    is_super_admin: true
+    Profile:
+      fullname: Sonia Garcia Perez
+      email: sonia@mail.com
+      sexo: 0
+      fecha_nac: "1993-02-08"
+      provincia: León
+      localidad: León
+      avatar: sonia.jpg
+
+
+
+AmigoUsuario:
+
+  fer_y_mar:
+    user1_id: 1
+    user2_id: 2
+    estado: 1
+
+  fer_y_luis:
+    user1_id: 1
+    user2_id: 3
+    estado: 1
+
+  fer_y_ana::
+    user1_id: 1
+    user2_id: 4
+    estado: 1
+      
+
+Mensaje:
+  mensaje_fer_1:
+    sf_guard_user_profile_id: 3
+    receptor: 1
+    titulo: ¿¿Qué tal primo??
+    contenido: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    estado: 0
+
+  mensaje_fer_2:
+    sf_guard_user_profile_id: 2
+    receptor: 1
+    titulo: Ya soy mamá!!
+    contenido: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    estado: 0

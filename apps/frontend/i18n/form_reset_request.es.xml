@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header/>
+    <body>
+      <trans-unit>
+        <source>E-mail is required</source>
+        <target>Debes escribir tu e-mail</target>
+      </trans-unit>
+      <trans-unit>
+        <source>There isn't any account using that e-mail</source> 	
+        <target>No usastes esta dirección de e-mail para registrarte</target>
+      </trans-unit>
+      <trans-unit>
+        <source>That's not an e-mail address</source> 	
+        <target>No has introducido una dirección de e-mail correcta</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

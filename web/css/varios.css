@@ -1,0 +1,86 @@
+@CHARSET "UTF-8";
+
+#contenedor{
+	
+	width: 600px;
+	margin: 0 auto
+}
+
+
+
+#mensaje{
+	
+	color: white;
+	font-weight: bold;
+	background:none repeat scroll 0 0 #FB5B81;
+	line-height:24px;
+	margin:0 auto;
+	padding:11px;
+	text-align:center;
+	width:438px;
+}
+
+
+#generar_password{
+	
+	width: 552px;
+	margin: 0 auto;
+	border: 1px solid #B9B9B9;
+	padding:8px 22px 18px;
+	
+}
+
+#generar_password form{
+		
+	padding:24px 0 0 165px;
+	
+}
+
+#mensaje_request_password_do{
+	
+	background:none repeat scroll 0 0 #FB5B81;
+	color:white;
+	font-weight:bold;
+	margin:69px auto 0;
+	padding:16px 22px 18px;
+	width:481px;
+	text-align: center;
+}
+
+
+#mensaje_reset_password{
+	
+	background:none repeat scroll 0 0 #FB5B81;
+	color:white;
+	font-weight:bold;
+	margin:69px auto 0;
+	padding:16px 22px 18px;
+    width:360px;
+	text-align: center;	
+}
+
+.sf_apply #sf_apply_reset_request{
+	border:1px solid black;
+	line-height:21px;
+	margin:0 auto;
+	padding:21px 27px;
+	width:502px;
+    
+}
+	
+.sf_apply table{
+ 
+    margin:16px auto 5px;	
+		
+}
+
+.sf_apply_notice{
+	
+	border: 1px solid black;
+	padding: 25px;
+	width: 502px;
+	margin: 0 auto;
+	line-height: 14px;
+	
+	}
+

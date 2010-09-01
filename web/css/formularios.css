@@ -1,0 +1,48 @@
+/* Formulario Tabla 1 */
+
+td.form_tabla_1_etiqueta label{
+
+	display:block;	
+	text-align: right;
+	margin-right: 5px;
+}
+
+td.form_tabla_1_errores{
+	
+    padding:3px; /* para que los mensajes de error no esten tan pegados al input del campo */
+	color:red;
+	font-size: 10px; 
+	height: 16px; /* esto definirá el espacio entre campos */
+	vertical-align: top; /* los mensajes de error aparecen justo debajo del campo */
+
+}
+
+
+/* Formulario Tabla 2 */
+
+
+/* Formulario Lista 1 */
+
+.form_lista_1_etiqueta {
+
+	margin-bottom: 7px;	
+	font-weight: bold;
+}
+
+.form_lista_1_campo input{
+	
+	margin-bottom: 16px;
+	
+}
+
+
+/*esta es la clase de los mensajes que aparecen
+  al editar un formulario satisfactoriamente*/
+.edicion_ok{
+	
+	text-align: center;
+	font-weight: bold;
+	margin-top: 15px;
+    margin-bottom: 15px;
+}
+

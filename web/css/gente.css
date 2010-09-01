@@ -1,0 +1,103 @@
+#lista_y_filtro{
+
+	width:83em;
+	
+}
+
+#filtro{
+	
+	border:medium solid #FB5B81;
+	clear:right;
+	margin-left:467px;
+	width:211px;
+	
+}
+
+#filtro input[type="text"]{
+	
+	width: 96%;
+	
+}
+
+#cabecera_filtro{
+	
+	background: #fb5b81;
+	padding: 3px 3px 4px 6px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 18px;
+	
+}
+
+#cuerpo_filtro{
+	
+	margin: 12px 10px 10px 12px;
+	
+}
+
+
+td.etiqueta_centro_derecha label{
+
+	display:block;	
+	text-align: right;
+}
+
+td.error_list {
+	
+	color:red;
+	font-size: 10px;
+	
+}
+
+td.celda_vacia {
+	
+	font-size: 10px;
+	
+}
+
+
+/******* radio list sexo *******/
+
+ul.radio_list{
+	
+	display: inline-block; /* si quito esto, el div para el mensaje de error aparece en linea con */ 
+	                       /* los radio buttons y sus etiquetas, dada la regla de "ul.radio_list li". */
+	
+}
+
+ul.radio_list li{
+	
+	float: left;
+	display: inline;
+	
+}
+
+
+
+input[type="radio"]{
+	
+	vertical-align: baseline;
+	margin-left:10px;
+	
+}
+
+
+/* selects edad */
+
+td.select_edad label{
+	
+	display: block; /* para que podamos asignar un "width" */
+	width: 23px;
+	margin-left: 10px;
+}
+
+#usuario_filters_edad_a{
+	
+	margin-bottom: 15px;
+}
+
+#usuario_filters_edad_de{
+	
+	margin-bottom: 5px;
+}
+
